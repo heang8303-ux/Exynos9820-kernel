@@ -5951,7 +5951,7 @@
 					type = "active";
 				};
 				gpu_control_temp: gpu-control-temp {
-					temperature = <88000>; /* millicelsius */
+					temperature = <90000>; /* millicelsius */
 					hysteresis = <5000>; /* millicelsius */
 					type = "passive";
 				};
@@ -5961,22 +5961,22 @@
 					type = "active";
 				};
 				gpu_alert1: gpu-alert1 {
-					temperature = <110000>; /* millicelsius */
+					temperature = <115000>; /* millicelsius */
 					hysteresis = <5000>; /* millicelsius */
 					type = "active";
 				};
 				gpu_alert2: gpu-alert2 {
-					temperature = <115000>; /* millicelsius */
+					temperature = <120000>; /* millicelsius */
 					hysteresis = <5000>; /* millicelsius */
 					type = "active";
 				};
 				gpu_alert3: gpu-alert3 {
-					temperature = <115000>; /* millicelsius */
+					temperature = <130000>; /* millicelsius */
 					hysteresis = <5000>; /* millicelsius */
 					type = "active";
 				};
 				gpu_hot: gpu-hot {
-					temperature = <115000>; /* millicelsius */
+					temperature = <140000>; /* millicelsius */
 					hysteresis = <5000>; /* millicelsius */
 					type = "hot";
 				};
